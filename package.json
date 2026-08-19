@@ -1,0 +1,32 @@
+{
+  "name": "cn-holiday-mcp",
+  "version": "0.1.0",
+  "description": "零依赖的中国法定节假日/调休 MCP 服务器：查询 2025–2026 放假安排、调休上班日",
+  "type": "module",
+  "bin": {
+    "cn-holiday-mcp": "src/server.mjs"
+  },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node tests/smoke.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "china",
+    "holiday",
+    "节假日",
+    "调休",
+    "zero-dependency"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src",
+    "data",
+    "README.md",
+    "LICENSE"
+  ]
+}
